@@ -6,7 +6,7 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --time=00:05:00
 #SBATCH --mem=10GB
-#SBATCH --account=chem023222
+#SBATCH --account=xxxx
 
 run.py \
 	--model_type "ligand_mpnn" \
