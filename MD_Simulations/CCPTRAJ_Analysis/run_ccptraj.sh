@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --account=chem023222
+#SBATCH --account=xxxx
 #SBATCH --partition=compute
 #SBATCH --cpus-per-task=14
 #SBATCH --ntasks-per-node=1
@@ -9,7 +9,7 @@
 #
 #
 #
-for i in *_MD.nc_cpptraj_sasa.in ;
+for i in *_MD.nc_cpptraj10.in ;
 do
 echo $i
 cpptraj $i
