@@ -6,6 +6,5 @@ MD quick heating of system (NVT)
  ntb=1, cut=8.0,
  ntc=2, ntf=2, ntwx=1
  ntt=3, gamma_ln=1.0, tempi=25.0, temp0=298.0,
- ntr=0, restraint_wt=10.0,
- restraintmask=':MFL'
+ ntr=0, restraint_wt=10.0
 /
