@@ -5,11 +5,11 @@ from chai_lab.chai1 import run_inference  # Replace with the actual library impo
 from Bio import SeqIO
 import csv
 
-############## v2 aggregate - sorting by aggreagte score, a weighted average of the confidence metrics #########################
+############## v2 aggregate - sorting by aggregate score, a weighted average of the confidence metrics #########################
 ############## updated to include placeholders to make userface more friendly ##################################################
 
-INPUT_FASTA = Path("/user/work/dy19627/LigandMPNN_v2/outputs/seq42_empty/v1/seqs/e4d2_sol1_seq42_apo_aa_filt_top_10_processed.fa")
-OUTPUT_BASE_DIR = Path("/user/work/dy19627/LigandMPNN_v2/outputs/seq42_empty/v1/seqs/Chai1")
+INPUT_FASTA = Path("/path/to/fasta/file.fa")
+OUTPUT_BASE_DIR = Path("/path/to/output/directory")
 AGGREGATE_RANK_FILE = OUTPUT_BASE_DIR / "highest_aggregate_scores.csv"
 
 # Function to parse the FASTA file and extract protein and ligand data
