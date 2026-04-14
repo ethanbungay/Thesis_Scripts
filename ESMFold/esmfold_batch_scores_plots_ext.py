@@ -6,7 +6,6 @@ import numpy as np
 from scipy.special import softmax
 import re
 
-#torch.hub.set_dir("/user/home/bh14119/scratch/.cache/torch/hub")
 
 def esmfold(fasta_file):
     with open(fasta_file, "r") as seqs:
