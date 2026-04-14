@@ -1,2 +1,1 @@
-The submission ccptraj script is an example script for extracting backbone/ligand RMSDs, RMSFs, Flavin hydrogen bonds, heme solvent accessible surface area, and heme-flavin minimum distance (between delocalised systems). Each parameter was calculated per each repeat.
-
+The submission ccptraj script is an example script for extracting backbone/ligand RMSDs, RMSFs, Flavin hydrogen bonds, heme solvent accessible surface area, and heme-flavin minimum distance (between delocalised systems). The script outputted an input file per repeat of production, which was subsequently submitted to HPC CPU nodes. 
